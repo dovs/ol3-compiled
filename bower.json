@@ -1,16 +1,28 @@
 {
-  "name": "openlayers3",
-  "version": "3.4.0",
-  "main": [
-  "./build/ol.js",  
-  "./build/ol.css"
+  "name": "ol3-compiled",
+  "homepage": "https://github.com/dovs/ol3-compiled",
+  "version": "3.8.2-1.0.0",
+  "authors": [
+    "David Rubert <david.rubert@gmail.com>",
+    "Dov Shmilovich <dov.shmilovich@gmail.com>"
   ],
+  "description": "OpenLayers 3 compiled distribution files with bbox patch",
+  "main": [
+    "build/ol.js",
+    "build/ol.css"
+  ],
+  "moduleType": [],
+  "keywords": [
+    "ol3",
+    "javascript",
+    "openlayers"
+  ],
+  "license": "MIT",
   "ignore": [
-    "./build/ol.ext/*.*",
-	"./build/timestamps/*.*",
-    "info.json",
-    "npm-install-timestamp",
-    "ol.js.map",
-    "ol-debug.js"
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
   ]
 }
